@@ -16,5 +16,10 @@ namespace MusicProject
         {
             InitializeComponent();
         }
+
+        private void FormGallery_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
