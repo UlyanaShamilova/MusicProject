@@ -76,6 +76,7 @@
     <Compile Include="FormMedia.Designer.cs">
       <DependentUpon>FormMedia.cs</DependentUpon>
     </Compile>
+    <Compile Include="Photo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormArticles.resx">
@@ -97,6 +98,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Assets\titles.csv" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -115,6 +117,18 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Assets\chevron_left_1.png" />
+    <Content Include="Assets\chevron_left_2.png" />
+    <Content Include="Assets\chevron_right_1.png" />
+    <Content Include="Assets\chevron_right_2.png" />
+    <Content Include="Assets\Photos\classic_concert.jpg" />
+    <Content Include="Assets\Photos\composers.jpg" />
+    <Content Include="Assets\Photos\concert.jpg" />
+    <Content Include="Assets\Photos\creation_music.jpg" />
+    <Content Include="Assets\Photos\instrument_organ.jpg" />
+    <Content Include="Assets\Photos\live_concert.jpg" />
+    <Content Include="Assets\Photos\sheet_music.jpg" />
+    <Content Include="Assets\Photos\yaktak.jpg" />
     <Content Include="htmlArticles\composers.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
